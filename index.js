@@ -42,6 +42,7 @@ else if (xp >= 10001){
 	console.log("Seu Ranking é Radiante")
 }
 
+
 const divisao = "_".repeat(70)
 console.log(divisao)
 
@@ -50,8 +51,7 @@ console.log("\nO Herói de nome " + herói + " está no nível " + xp)
 
 switch(true){
 	case ("xp <= 1000"):
-		console.log("Ele é Ferro")
-    	console.log("Treine mais e mais rápido para não oxidar e virar ferrugem")
+	console.log("Ele é Ferro")
     	break
 
     case (xp >= 1001 && xp <= 2000):
@@ -59,7 +59,7 @@ switch(true){
     	break
 
     case (xp >= 2001 && xp <= 5000):
-		console.log("Ele é Prata")
+	console.log("Ele é Prata")
     	break
 
    case (xp >= 5001 && xp <= 7000):
